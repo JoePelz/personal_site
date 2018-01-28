@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xsi_file type="ShaderCompound" name="Joe_SpriteTex" category="Particle" formatversion="1.1" compoundversion="1.0" color="13990884">
+	<definition>
+		<nodes>
+			<node type="shader" progid="Softimage.sib_attribute_color.1" index="0">
+				<param name="Name" type="31" ><![CDATA[Attribute_Color]]></param>
+				<param name="attribute" type="8" ><![CDATA[Color]]></param>
+				<param name="index" type="3" value="0"></param>
+				<param name="default.red" type="4" value="1.000000"></param>
+				<param name="default.green" type="4" value="1.000000"></param>
+				<param name="default.blue" type="4" value="1.000000"></param>
+				<param name="default.alpha" type="4" value="1.000000"></param>
+				<datablob category="ui_infos">
+					<prop name="posx">-483</prop>
+					<prop name="posy">182</prop>
+					<prop name="state">ConnectedOnly</prop>
+				</datablob>
+			</node>
+			<node type="shader" progid="Softimage.sib_color_switch.1" index="1">
+				<param name="Name" type="31" ><![CDATA[Color_Boolean_Switch]]></param>
+				<param name="input1.red" type="4" value="1.000000"></param>
+				<param name="input1.green" type="4" value="0.000000"></param>
+				<param name="input1.blue" type="4" value="0.000000"></param>
+				<param name="input1.alpha" type="4" value="0.000000"></param>
+				<param name="input2.red" type="4" value="0.000000"></param>
+				<param name="input2.green" type="4" value="0.000000"></param>
+				<param name="input2.blue" type="4" value="1.000000"></param>
+				<param name="input2.alpha" type="4" value="0.000000"></param>
+				<param name="switch" type="11" value="false"></param>
+				<datablob category="ui_infos">
+					<prop name="posx">-141</prop>
+					<prop name="posy">109</prop>
+					<prop name="state">Normal</prop>
+				</datablob>
+			</node>
+			<node type="shader" progid="Softimage.sib_color_2mix.1" index="2">
+				<param name="Name" type="31" ><![CDATA[Mix_2colors]]></param>
+				<param name="mixersize" type="3" value="2"></param>
+				<param name="base_color.red" type="4" value="0.000000"></param>
+				<param name="base_color.green" type="4" value="1.000000"></param>
+				<param name="base_color.blue" type="4" value="0.000000"></param>
+				<param name="base_color.alpha" type="4" value="0.000000"></param>
+				<param name="color1.red" type="4" value="0.000000"></param>
+				<param name="color1.green" type="4" value="0.000000"></param>
+				<param name="color1.blue" type="4" value="1.000000"></param>
+				<param name="color1.alpha" type="4" value="0.000000"></param>
+				<param name="mode1" type="3" value="4"></param>
+				<param name="weight1.red" type="4" value="1.000000"></param>
+				<param name="weight1.green" type="4" value="1.000000"></param>
+				<param name="weight1.blue" type="4" value="1.000000"></param>
+				<param name="weight1.alpha" type="4" value="1.000000"></param>
+				<param name="alpha1" type="11" value="false"></param>
+				<param name="inuse1" type="11" value="true"></param>
+				<param name="color2.red" type="4" value="1.000000"></param>
+				<param name="color2.green" type="4" value="1.000000"></param>
+				<param name="color2.blue" type="4" value="1.000000"></param>
+				<param name="color2.alpha" type="4" value="0.000000"></param>
+				<param name="mode2" type="3" value="1"></param>
+				<param name="weight2.red" type="4" value="0.500000"></param>
+				<param name="weight2.green" type="4" value="0.500000"></param>
+				<param name="weight2.blue" type="4" value="0.500000"></param>
+				<param name="weight2.alpha" type="4" value="0.000000"></param>
+				<param name="alpha2" type="11" value="false"></param>
+				<param name="inuse2" type="11" value="false"></param>
+				<param name="color3.red" type="4" value="1.000000"></param>
+				<param name="color3.green" type="4" value="1.000000"></param>
+				<param name="color3.blue" type="4" value="1.000000"></param>
+				<param name="color3.alpha" type="4" value="0.000000"></param>
+				<param name="mode3" type="3" value="1"></param>
+				<param name="weight3.red" type="4" value="0.500000"></param>
+				<param name="weight3.green" type="4" value="0.500000"></param>
+				<param name="weight3.blue" type="4" value="0.500000"></param>
+				<param name="weight3.alpha" type="4" value="0.000000"></param>
+				<param name="alpha3" type="11" value="false"></param>
+				<param name="inuse3" type="11" value="false"></param>
+				<param name="color4.red" type="4" value="1.000000"></param>
+				<param name="color4.green" type="4" value="1.000000"></param>
+				<param name="color4.blue" type="4" value="1.000000"></param>
+				<param name="color4.alpha" type="4" value="0.000000"></param>
+				<param name="mode4" type="3" value="1"></param>
+				<param name="weight4.red" type="4" value="0.500000"></param>
+				<param name="weight4.green" type="4" value="0.500000"></param>
+				<param name="weight4.blue" type="4" value="0.500000"></param>
+				<param name="weight4.alpha" type="4" value="0.000000"></param>
+				<param name="alpha4" type="11" value="false"></param>
+				<param name="inuse4" type="11" value="false"></param>
+				<param name="color5.red" type="4" value="1.000000"></param>
+				<param name="color5.green" type="4" value="1.000000"></param>
+				<param name="color5.blue" type="4" value="1.000000"></param>
+				<param name="color5.alpha" type="4" value="0.000000"></param>
+				<param name="mode5" type="3" value="1"></param>
+				<param name="weight5.red" type="4" value="0.500000"></param>
+				<param name="weight5.green" type="4" value="0.500000"></param>
+				<param name="weight5.blue" type="4" value="0.500000"></param>
+				<param name="weight5.alpha" type="4" value="0.000000"></param>
+				<param name="alpha5" type="11" value="false"></param>
+				<param name="inuse5" type="11" value="false"></param>
+				<param name="color6.red" type="4" value="1.000000"></param>
+				<param name="color6.green" type="4" value="1.000000"></param>
+				<param name="color6.blue" type="4" value="1.000000"></param>
+				<param name="color6.alpha" type="4" value="0.000000"></param>
+				<param name="mode6" type="3" value="1"></param>
+				<param name="weight6.red" type="4" value="0.500000"></param>
+				<param name="weight6.green" type="4" value="0.500000"></param>
+				<param name="weight6.blue" type="4" value="0.500000"></param>
+				<param name="weight6.alpha" type="4" value="0.000000"></param>
+				<param name="alpha6" type="11" value="false"></param>
+				<param name="inuse6" type="11" value="false"></param>
+				<param name="color7.red" type="4" value="1.000000"></param>
+				<param name="color7.green" type="4" value="1.000000"></param>
+				<param name="color7.blue" type="4" value="1.000000"></param>
+				<param name="color7.alpha" type="4" value="0.000000"></param>
+				<param name="mode7" type="3" value="1"></param>
+				<param name="weight7.red" type="4" value="0.500000"></param>
+				<param name="weight7.green" type="4" value="0.500000"></param>
+				<param name="weight7.blue" type="4" value="0.500000"></param>
+				<param name="weight7.alpha" type="4" value="0.000000"></param>
+				<param name="alpha7" type="11" value="false"></param>
+				<param name="inuse7" type="11" value="false"></param>
+				<datablob category="ui_infos">
+					<prop name="posx">-294</prop>
+					<prop name="posy">148</prop>
+					<prop name="state">Normal</prop>
+				</datablob>
+			</node>
+			<node type="shader" progid="Softimage.sib_sprite.1" index="3">
+				<param name="Name" type="31" ><![CDATA[Sprite]]></param>
+				<param name="input.red" type="4" value="1.000000"></param>
+				<param name="input.green" type="4" value="1.000000"></param>
+				<param name="input.blue" type="4" value="1.000000"></param>
+				<param name="input.alpha" type="4" value="1.000000"></param>
+				<param name="matte.red" type="4" value="0.514000"></param>
+				<param name="matte.green" type="4" value="0.514000"></param>
+				<param name="matte.blue" type="4" value="0.514000"></param>
+				<param name="matte.alpha" type="4" value="0.514000"></param>
+				<param name="alpha_threshold" type="4" value="0.900000"></param>
+				<param name="mode" type="3" value="0"></param>
+				<param name="invert" type="11" value="false"></param>
+				<param name="use_matte" type="11" value="false"></param>
+				<datablob category="ui_infos">
+					<prop name="posx">101</prop>
+					<prop name="posy">89</prop>
+					<prop name="state">Normal</prop>
+				</datablob>
+			</node>
+			<node type="shader" progid="Softimage.txt2d-image-explicit.1" index="4">
+				<param name="Name" type="31" ><![CDATA[Image]]></param>
+				<param name="tspace_id" type="3" value="0"></param>
+				<param name="repeats.x" type="4" value="1.000000"></param>
+				<param name="repeats.y" type="4" value="1.000000"></param>
+				<param name="repeats.z" type="4" value="1.000000"></param>
+				<param name="alt_x" type="11" value="false"></param>
+				<param name="alt_y" type="11" value="false"></param>
+				<param name="alt_z" type="11" value="false"></param>
+				<param name="min.x" type="4" value="0.000000"></param>
+				<param name="min.y" type="4" value="0.000000"></param>
+				<param name="min.z" type="4" value="0.000000"></param>
+				<param name="max.x" type="4" value="1.000000"></param>
+				<param name="max.y" type="4" value="1.000000"></param>
+				<param name="max.z" type="4" value="1.000000"></param>
+				<param name="step.x" type="4" value="0.001000"></param>
+				<param name="step.y" type="4" value="0.001000"></param>
+				<param name="step.z" type="4" value="0.001000"></param>
+				<param name="factor" type="4" value="5.000000"></param>
+				<param name="torus_u" type="11" value="false"></param>
+				<param name="torus_v" type="11" value="false"></param>
+				<param name="alpha" type="11" value="false"></param>
+				<param name="bump_inuse" type="11" value="false"></param>
+				<param name="alpha_output" type="11" value="false"></param>
+				<param name="alpha_factor" type="4" value="1.000000"></param>
+				<param name="eccmax" type="4" value="20.000000"></param>
+				<param name="maxminor" type="4" value="16.000000"></param>
+				<param name="disc_r" type="4" value="0.300000"></param>
+				<param name="bilinear" type="11" value="true"></param>
+				<param name="filtered" type="11" value="false"></param>
+				<param name="bump_filtered" type="11" value="false"></param>
+				<datablob category="ui_infos">
+					<prop name="posx">-484</prop>
+					<prop name="posy">16</prop>
+					<prop name="state">Normal</prop>
+				</datablob>
+			</node>
+		</nodes>
+		<exposed_ports>
+			<port index="4" portname="tex" username="Sprite_Tex" displayname="Sprite Texture"></port>
+			<port index="3" portname="mode" username="mode" displayname="Alpha Mode"></port>
+			<port index="1" portname="switch" username="Use_Particle_Color" displayname="Mulitply by Particle Color"></port>
+			<port index="3" portname="use_matte" username="Override_Alpha" displayname="Override Alpha"></port>
+			<port index="3" portname="matte" username="New_Alpha" displayname="New Alpha"></port>
+			<port index="3" portname="" username="Material" displayname="Surface and Shadow"></port>
+		</exposed_ports>
+		<connections>
+			<cnx from_node="0" from_port="" to_node="2" to_port="color1"> </cnx>
+			<cnx from_node="1" from_port="" to_node="3" to_port="input"> </cnx>
+			<cnx from_node="2" from_port="" to_node="1" to_port="input2"> </cnx>
+			<cnx from_node="4" from_port="" to_node="2" to_port="base_color"> </cnx>
+			<cnx from_node="4" from_port="" to_node="1" to_port="input1"> </cnx>
+		</connections>
+		<layout>
+			<item type="input" name="Sprite_Tex" ppgvis="1" portvis="1"> </item>
+			<item type="input" name="mode" min="0" max="4" ppgvis="1" portvis="0"> </item>
+			<item type="input" name="Use_Particle_Color" min="0" max="-1" ppgvis="1" portvis="1"> </item>
+			<item type="input" name="Override_Alpha" min="0" max="-1" ppgvis="1" portvis="1"> </item>
+			<item type="input" name="New_Alpha" ppgvis="1" portvis="1"> </item>
+			<item type="output" name="Material" ppgvis="1" portvis="0"> </item>
+		</layout>
+		<ppglogic lang=""><![CDATA[]]></ppglogic>
+	</definition>
+</xsi_file>

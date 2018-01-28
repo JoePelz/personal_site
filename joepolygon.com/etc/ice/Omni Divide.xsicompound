@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xsi_file type="CompoundNode" name="Omni Divide" category="Basic" tasks="" author="Joe Pelz" url="" formatversion="1.4" compoundversion="1.0" versiontag="" backgroundcolor="15046912">
+	<description><![CDATA[]]></description>
+	<definition>
+		<nodes>
+			<node type="MultiplyNode" index="0">
+				<param name="value1" type="4" value="1.000000"></param>
+				<param name="value2" type="4" value="1.000000"></param>
+				<portdef name="value1" type="4" structure="1" group="0" instance="0" port="0"></portdef>
+				<portdef name="value2" type="4" structure="1" group="0" instance="1" port="0"></portdef>
+				<datablob category="ui_infos">
+					<prop name="posx">-13</prop>
+					<prop name="posy">567</prop>
+					<prop name="state">Normal</prop>
+				</datablob>
+			</node>
+			<node type="InvertNode" index="1">
+				<param name="value" type="4" value="0.000000"></param>
+				<portdef name="value" type="4" structure="1" group="0" instance="0" port="0"></portdef>
+				<datablob category="ui_infos">
+					<prop name="posx">-179</prop>
+					<prop name="posy">600</prop>
+					<prop name="state">Normal</prop>
+				</datablob>
+			</node>
+		</nodes>
+		<exposed_ports>
+			<port index="0" portname="value1" username="Numerator" basename="Numerator" portlabel="Numerator" exposetype="single"> </port>
+			<port index="0" portname="result" username="Quotient" basename="Quotient" portlabel="Quotient" exposetype="single"> </port>
+			<port index="1" portname="value" username="Denominator" basename="Denominator" portlabel="Denominator" exposetype="single"> </port>
+		</exposed_ports>
+		<connections>
+			<cnx from_node="1" from_port="result" to_node="0" to_port="value2"> </cnx>
+		</connections>
+		<layout>
+			<item type="input" name="Numerator"> </item>
+			<item type="input" name="Denominator"> </item>
+			<item type="output" name="Quotient"> </item>
+		</layout>
+		<blob_dictionary>
+		</blob_dictionary>
+	</definition>
+</xsi_file>

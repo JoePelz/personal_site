@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xsi_file type="CompoundNode" name="Rad to Deg" category="Trigonometry" formatversion="1.4" compoundversion="1.0" constructionmode="Current" backgroundcolor="14056676">
+	<definition>
+		<nodes>
+			<node type="MultiplyNode" index="0">
+				<param name="value1" type="4" value="1.000000"></param>
+				<param name="value2" type="4" value="57.296001"></param>
+				<portdef name="value1" type="4" structure="1" group="0" instance="0" port="0"></portdef>
+				<portdef name="value2" type="4" structure="1" group="0" instance="1" port="0"></portdef>
+				<datablob category="ui_infos">
+					<prop name="posx">15</prop>
+					<prop name="posy">234</prop>
+					<prop name="state">Normal</prop>
+				</datablob>
+			</node>
+			<node type="ScalarNode" index="1">
+				<param name="value" type="4" value="0.000000"></param>
+				<portdef name="value" type="4" structure="1" group="0" instance="0" port="0"></portdef>
+				<datablob category="ui_infos">
+					<prop name="posx">-79</prop>
+					<prop name="posy">255</prop>
+					<prop name="state">Normal</prop>
+				</datablob>
+			</node>
+		</nodes>
+		<exposed_ports>
+			<port index="0" portname="result" username="Radians" basename="Radians" portlabel="Radians" exposetype="single"> </port>
+			<port index="1" portname="value" username="Degrees" basename="Degrees" portlabel="Degrees" exposetype="single"> </port>
+		</exposed_ports>
+		<connections>
+			<cnx from_node="1" from_port="result" to_node="0" to_port="value1"> </cnx>
+		</connections>
+		<layout>
+			<item type="input" name="Degrees"> </item>
+			<item type="output" name="Radians"> </item>
+		</layout>
+	</definition>
+</xsi_file>
